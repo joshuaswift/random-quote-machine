@@ -2,7 +2,7 @@
 $(document).ready(function() {
    
   //Function to obtain JSON data in the form of quote content from the Forismatic API and fade in
-  var getQuote = function() { $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=42&callback=", function(json) {
+  var getQuote = function() { $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=42&_jsonp=?", function(json) {
     
     
     var quoteArray = [json][0];
