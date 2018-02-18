@@ -1,0 +1,103 @@
+body {
+  background-color: #123E4E;
+}
+
+#quotebox {
+  /*
+  border: 6px #808080 solid;
+  */
+  height: 250px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 18px;
+
+}
+
+#shareBtn {
+  color: #123E4E;
+  float: right;
+  margin-top: 350px;
+  margin-right: 135px;
+  background-color: #FF6666;
+  border-radius: 6px;
+  border: none;
+  width: 80px;
+  height: 50px; 
+}
+
+#newQuoteBtn {
+  color: #123E4E;
+  float: right;
+  margin-top: 350px;
+  margin-right: 35px;
+  background-color: #FF6666;
+  border-radius: 6px;
+  border: none;
+  width: 80px;
+  height: 50px;
+}
+
+#quotebox {
+  
+  color: white;
+  font-size: 20px;
+  font-family: "Droid Serif", serif;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 75px;
+  padding: 10px;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+  
+.quote-mark {
+  color: #FF6666;
+  
+}
+
+
+
+.fa-quote-left {
+  margin-right: 10px;
+}
+
+
+.fa-quote-right {
+  margin-left: 10px;
+}
+
+
+
+
+
+h3 {
+  color: white;
+  font-weight: 450;
+  font-family: "Droid Serif", serif;
+  text-transform: uppercase;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* For desktop - center buttons */
+@media only screen and (min-width:1224px) {
+  #shareBtn {margin-right: 500px;}
+  #quotebox {margin-top: 100px;}
+}
+
+/* For tablets - landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+ #shareBtn {margin-top: 300px;}
+ #newQuoteBtn {margin-top: 300px;}
+ #quotebox {height: 200px;} 
+}
+
