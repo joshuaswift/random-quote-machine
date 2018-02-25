@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
    
-  //Function to obtain JSON data in the form of quote content from the Forismatic API and fade in
+  //Function to obtain JSON data in the form of quote content from the Quotes on Design API and fade in
   var getQuote = function() { $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=42&_jsonp=?", function(json) {
     
     
